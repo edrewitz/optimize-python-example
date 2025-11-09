@@ -5,10 +5,14 @@ from setuptools import setup, find_packages
 if sys.version_info[0] < 3:
   print("ERROR: User is running a version of Python older than Python 3\nTo use shapeography, the user must be using Python 3 or newer.")
 
+
 setup(
     name = "operations",
     version = "0.1",
     packages = find_packages(),
+    package_data={
+        'operations': ['*.dll'] # Includes all .dll files within 'my_package' directory
+    },
     author="Eric J. Drewitz",
     description="Practicing optimizing Python with C/C++",
     long_description=open("README.md").read(),
