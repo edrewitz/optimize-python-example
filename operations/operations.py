@@ -1,9 +1,11 @@
 import ctypes
 import os
 
+# Gets the absolute path to the installation folder to import the C/C++ DLLs
 script_directory = os.path.dirname(os.path.abspath(__file__))
 folder_modified = script_directory.replace("\\", "/")
 
+# Importing the C/C++ DLLs
 cpplibrary = ctypes.CDLL(f"{folder_modified}/sum.dll")
 clibrary = ctypes.CDLL(f"{folder_modified}/difference.dll")
 
