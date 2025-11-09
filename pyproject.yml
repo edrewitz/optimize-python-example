@@ -1,0 +1,22 @@
+build-system:
+  requires:
+    - setuptools>=68.0
+  build-backend: setuptools.build_meta
+project:
+  name: operations
+  version: '0.1'
+  authors:
+    - name: 'Eric J Drewitz'
+  description: Practicing optimizing Python with C/C++
+  readme: README.md
+  keywords:
+    - optimization
+  requires-python: '>=3.10'
+  classifiers:
+    - 'Programming Language :: Python'
+    - 'Programming Language :: Python :: 3.10'
+    - 'Programming Language :: Python :: 3.11'
+    - 'Topic :: Scientific/Engineering'
+    - 'Topic :: Scientific/Engineering :: optimization'
+    - 'Operating System :: OS Independent'
+    - 'License :: OSI Approved :: MIT License'
