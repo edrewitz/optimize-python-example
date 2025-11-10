@@ -11,8 +11,8 @@ setup(
     version = "0.1",
     packages = find_packages(),
     package_data={
-        'operations': ['*.dll'], # Includes all .dll files within 'my_package' directory
-        'operations': ['*.so'], # Includes all .so files within 'my_package' directory
+        'operations': ['*.dll',
+                       '*.so'], # Includes all .dll and .so files within 'my_package' directory
     },
     author="Eric J. Drewitz",
     description="Practicing optimizing Python with C/C++",
