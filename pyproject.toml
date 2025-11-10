@@ -14,7 +14,6 @@ keywords = ["optimization"]
 requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python",
-    "Classifier: Development Status :: 4 - Beta",
     "Operating System :: OS Independent",
     "License :: OSI Approved :: MIT License",
 ]
