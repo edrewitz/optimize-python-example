@@ -7,7 +7,7 @@ if sys.version_info[0] < 3:
 
 
 setup(
-    name = "operations",
+    name = "pyoptexample",
     version = "0.1",
     packages = find_packages(),
     package_data={
