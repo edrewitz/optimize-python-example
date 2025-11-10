@@ -12,7 +12,7 @@ setup(
     packages = find_packages(),
     package_data={
         'operations': ['*.dll'], # Includes all .dll files within 'my_package' directory
-        'operations': ['*.so'] # Includes all .so files within 'my_package' directory
+        'operations': ['*.so'], # Includes all .so files within 'my_package' directory
     },
     author="Eric J. Drewitz",
     description="Practicing optimizing Python with C/C++",
