@@ -1,4 +1,4 @@
-from operations.operations import(
+from pyoptexample.operations import(
     add,
     subtract
 )
