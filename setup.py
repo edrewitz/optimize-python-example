@@ -11,7 +11,7 @@ setup(
     version = "0.1",
     packages = find_packages(),
     package_data={
-        'operations': ['*.dll',
+        'pyoptexample': ['*.dll',
                        '*.so'], # Includes all .dll and .so files within 'my_package' directory
     },
     author="Eric J. Drewitz",
