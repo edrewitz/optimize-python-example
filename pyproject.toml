@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Practicing optimizing Python with C/C++"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 keywords = ["optimization"]
 requires-python = ">=3.10"
 classifiers = [
