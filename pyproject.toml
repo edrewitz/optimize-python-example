@@ -9,7 +9,7 @@ pyoptexample = ["*.dll", "*.so"] # Include all .dll and .so files within my_pack
 name = "pyoptexample"
 version = "0.2"
 authors = [
-  { name="Eric J Drewitz"},
+  {name="Eric J Drewitz"},
 ]
 description = "Practicing optimizing Python with C/C++"
 readme = "README.md"
