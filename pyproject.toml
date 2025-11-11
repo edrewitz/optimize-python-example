@@ -2,9 +2,6 @@
 requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools.package-data]
-pyoptexample = ["*.dll", "*.so"] # Include all .dll and .so files within my_package [pyoptexample]
-
 [project]
 name = "pyoptexample"
 version = "0.2"
@@ -13,10 +10,13 @@ authors = [
 ]
 description = "Practicing optimizing Python with C/C++"
 readme = "README.md"
+license = "MIT"
 keywords = ["optimization"]
 requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python",
     "Operating System :: OS Independent",
-    "License :: OSI Approved :: MIT License",
 ]
+
+[tool.setuptools.package-data]
+pyoptexample = ["*.dll", "*.so"] # Include all .dll and .so files within my_package [pyoptexample]
